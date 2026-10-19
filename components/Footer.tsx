@@ -83,7 +83,19 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-7 md:flex-row md:items-center">
-          <p className="text-xs text-mist/40">Pisada de Ouro — Maringá, Paraná.</p>
+          <div className="text-xs text-mist/40">
+            <p>Pisada de Ouro — Maringá, Paraná.</p>
+            <p className="mt-1">
+              <a
+                href="https://rafaelrazeira.com.br/vitrine-digital"
+                target="_blank"
+                rel="noopener"
+                className="transition-colors hover:text-gold-light"
+              >
+                vitrine por Rafael Razeira Estúdio
+              </a>
+            </p>
+          </div>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-mist/40">
             {/* Crie as páginas de política com os textos oficiais da loja */}
             <span className="cursor-default">Política de privacidade</span>
